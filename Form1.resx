@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox_SavedWifi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
+        2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOySURBVHhe7ZvJ
+        b9NAFMbzT3BgFScEF+AI3AGBAHEDCbgiQRc4IEBILCe4UoQQCMSBC6j3AnckFhUoEkXd0qbEKV1UBEmI
+        lzTR8D7Xbh37tQRmHBPbI/1ad96b5X2zeOrEmdXSN8PYpJnVLs20XtLvYeIXIf5z0Efqq93nzild3+iE
+        03zSdH09FX5A1AiukXairpkLvTnD2OyEt3rKW9ZRKlT2VRIHSnnTPOKEySdyOkeQYmwFcQCxdTvhNiZn
+        5OMcvEs9MBMKur6BDHGc9itRylcq65zwSQCr+phxijsP7eCdW10cdvu/pYaZj42v22dIDHmz2kECWC84
+        YzKw+jADxoKGxDAMAZK0+/spQwDOkBhSAbjMJJEKwGWGyasfFXE5OyP2DeTE9rdZG1wjDzauTJi0TICc
+        YYkLY9Ni6+tRsWUFtr0ZFRfHZmxfro4waIkACOjYZ60h2N394+LUl4LNrv6JBttx8m2VCC0RACPvBreH
+        Au+dLeIYumTH9bOZnw1CXKKZ4K0jLEIXAOsaU9sN/kPZYP3A+5Jhzwz4okwr9oTQBcDm5o4qRp7z8fKU
+        ZoLrf4XKcj4qCV2AvR9zdjAYWe+0X4mvhLsUcHfgfFQSugA73mXtYLDZcXaOE4OLG+ZOKsvZVRK6AAgE
+        nB5qXgD4uuU4u0pSAbhMlaQCJE0AnOCujs8GTncy4A5ybWI2lNOhcgHQUS4IFVynurk2ZVAugMqR94O6
+        uTZlUC4A13GVcG3KkArAZcrAdZpj/8Ck6MnP2+DIy/lwcG3KEIkACH5cX97Rs3TdrAjetlQQiQB3tPlA
+        uds0EzhfP/5yskQiwL3C90C5uyQK5+vHX06WSAQ4+Cm4BLAsOF8/3rZUENkmeH5keqkMrjkfDm9bKohM
+        AO//Bt6z/5/wtqWCVAAuUwau0xwnB5cFcJ8ANYO3LRVEJgCe+t7KzYmbhPvUuBm4NmWITIB/hWtThlQA
+        LlMG94ONMMAHK1ybMigXAA8tuM6r4MbEHNumDMoFwGMriKByJmDkEXxbPBJrN1IBuMwkkQpAP5L8Rcki
+        BBjxZSaJIRIg/bJ0Z9CQDPJm9UwG79XRH0l8YWLBfmECif545DPGHhr9+3bwSM6LkiW/U4wpTlbEWif8
+        xaSZtQNkSMJSqE+Z5mEn7MZERrw/FPcXJ7uccPmElwrJKY7LoVgwa4ecMFdP02Wxhgr0EAueCtqVumZV
+        nwTWfDMJtwnaLTvowPCcKhoi2uHYjD5SX60+6vvZpVsdmzKZ3yxCnlj1Qq/fAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox_AvailableWifi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAN+SURBVFhHxZdL
+        aBNRFIaPT3whivgAdSm4EvEBXelC6loXigpdCy58gaK4aN0o6kJB0nTaJKOlKk4SH4gFdSF2owtdKNSi
+        LqpWaSYx1rbJpJPX+N87STuZnM6kCHXxJZP/3pn/3DPnPkKWZf1XWLFRSOtfSN2JpVxbo7CiE9KseaSl
+        tpOWOEFRPQregyGQARa1ly0KlsuklExSCqMUMj9SKNtOqtHEPc8NKwpgupuiyXswGZdG0yECCOAGjmCp
+        QF3mO1IzzZyHoPaHOrjIHmligDXj8ArAiZL/RZHsJWqz5td4Tl5E9b3gS83DeQpAB/2gjzrzKVKKOYy2
+        zBq7UQpZUnMtk76kJddhxPcrD+fIICtPSdPPUCy1Q9RE9WY3pI6sEA+nUO4ZjH5TwCM7XeYHihgbxcj7
+        XIY2MX2QYolT1JNezpk1At021lPIeETBYoENorMwIjKwFYYTDnNUePKA10hninjvFDauUkcpPxUAstOd
+        O2J3iCWP2+bJLr8Rkza0GNnZYgeZuEDh3Auk8gZFMocpOL6Gu6eKaJepFwGEJ55IbbIxPryzeu1EGmp6
+        CwLsRaDf8V2uZMrGPQuCpSJSm0LFX+SeJ5B1Yllz5bW7sYpY4VADl2EyUmPoxmsaKsWMVyACXozp+yqj
+        5U2dNLIOiEDCuTbWq07Q9P2skY0B3iJAFf1Og2a8+7Oy0kPmZ2nkFVDEuFnnVyfItV9/5TL+irXiEKpZ
+        vjcvZMVHjGu1FQ+UQoYUa0ldf7cgxXh6A0zTYAzVfl4s0Vw/LyiQXIZKfyw3KsGtzB62HycKKJ5oorv6
+        Wq6tisyWYi3g2qqQOrqJ1Owxrk3AitNBD36sQlZaAaak/gnfpr0VI71d5gBFchGxHHP3TgcruiFteDXM
+        roD6rZlbB8K5Hu59c7CiE3nqierf6oyrTFf1HaWJRrLBim5gdLTOOKpnwRtsx2n5GtwBhI2H3LPcsCIH
+        zOIV4+cUT21zTkl76mEvUMxhad6Z1533esGKHHTnz0qxQnJtTlDxraSObebaOFhxNmHFRqCXSHsseRDv
+        OvBPhxZO9KMyLX/KmhCzIFguUWh8F9fXD1b0A6eoc5WCnJqGIfM119cPVvSj8n+hNgCcjrm+frCiHzAW
+        R/jaAFTjOtfXD1b0Ax9zsD2flH9glKKJXa+30aXXDSvOBHz4nhG8YMXZw6K/nFX6szdGHUMAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="label_WifiToolDesc.Text" xml:space="preserve">
+    <value>Wifi Scanner Tools allows you to scan all the available wifi and helps you detect the password strength of all saved wifi ssid and suggests you to make
+ all weak passwords strong to increase the security.</value>
+  </data>
+</root>
