@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -247,29 +248,32 @@ namespace NxWifiScanner
             lstLocal.Hide();
 
 
-
-
-            List<string> Available_Wifi = new List<string>();
-            Available_Wifi = GetAvailableWifi();
-            //  listBox_AvailableWifi.Location = new Point(287, 109);
-            //  listBox_AvailableWifi.Size = new Size(120, 95);
-            // listBox_AvailableWifi.fontSize=
-            listBox_AvailableWifi.ForeColor = Color.Purple;
-
-
-            if (Available_Wifi.Count > 0)
-
+            new Thread(() =>
             {
-                Console.WriteLine("Listing the available wifi");
-                Console.WriteLine("--------------------------");
-                foreach (var item in Available_Wifi.Skip(1))
+
+
+
+                List<string> Available_Wifi = new List<string>();
+                Available_Wifi = GetAvailableWifi();
+                //  listBox_AvailableWifi.Location = new Point(287, 109);
+                //  listBox_AvailableWifi.Size = new Size(120, 95);
+                // listBox_AvailableWifi.fontSize=
+                listBox_AvailableWifi.ForeColor = Color.Purple;
+
+
+                if (Available_Wifi.Count > 0)
 
                 {
-                    listBox_AvailableWifi.Items.Add(item);
-                    //Console.WriteLine(item.ToString());
-                }
-            }
+                    Console.WriteLine("Listing the available wifi");
+                    Console.WriteLine("--------------------------");
+                    foreach (var item in Available_Wifi.Skip(1))
 
+                    {
+                        listBox_AvailableWifi.Items.Add(item);
+                        //Console.WriteLine(item.ToString());
+                    }
+                }
+            }).Start();
 
 
             // Adding ListBox control
@@ -293,29 +297,35 @@ namespace NxWifiScanner
         }
         public void InitializeListView()
         {
-         
+            new Thread(() =>
+            {
 
-            listView_wifiPasswords.View = View.Details;
-            listView_wifiPasswords.Columns.Add("Wifi SSid", 239, HorizontalAlignment.Left);
-            listView_wifiPasswords.Columns.Add("Password", 239, HorizontalAlignment.Left);
-            listView_wifiPasswords.Columns.Add("Password Strength", 239, HorizontalAlignment.Left);
-            listView_wifiPasswords.Items.Clear();
-
-
-            label_SavedWifi.Show();
-            label_AvailableWifi.Hide();
-            pictureBox_SavedWifi.Show();
-            pictureBox_AvailableWifi.Hide();
-            label_wifiState.Hide();
-            button_wifiState.Hide();
-
-            label_wifiAdmin.Hide();
+                listView_wifiPasswords.View = View.Details;
+                listView_wifiPasswords.Columns.Add("Wifi SSid", 239, HorizontalAlignment.Left);
+                listView_wifiPasswords.Columns.Add("Password", 239, HorizontalAlignment.Left);
+                listView_wifiPasswords.Columns.Add("Password Strength", 239, HorizontalAlignment.Left);
+                listView_wifiPasswords.Items.Clear();
 
 
-            listView_wifiPasswords.Show();
-            button_Back.Show();
-           
-            get_Wifi_passwords();
+
+                label_SavedWifi.Show();
+                label_AvailableWifi.Hide();
+                pictureBox_SavedWifi.Show();
+                pictureBox_AvailableWifi.Hide();
+                label_wifiState.Hide();
+                button_wifiState.Hide();
+
+                label_wifiAdmin.Hide();
+
+
+                listView_wifiPasswords.Show();
+                button_Back.Show();
+            }).Start();
+
+            new Thread(() =>
+            {
+                get_Wifi_passwords();
+            }).Start();
 
             //listView_wifiPasswords.Items.Add(new ListViewItem(new string[] { "1", "content","4" }));
             //listView_wifiPasswords.Items.Add(new ListViewItem(new string[] { "4", "content2","5" }));
@@ -494,32 +504,41 @@ namespace NxWifiScanner
 
         private void button_AdminConsole_Click(object sender, EventArgs e)
         {
-            button_AdminConsole.Enabled = false;
-            label_AvailableWifi.Show();
-            lstLocal.View = View.Details;
-            lstLocal.Clear();
-            lstLocal.GridLines = true;
-            lstLocal.FullRowSelect = true;
-            lstLocal.BackColor = System.Drawing.Color.Aquamarine;
-            lstLocal.Columns.Add("IP", 100);
-            lstLocal.Columns.Add("HostName", 200);
-            lstLocal.Columns.Add("MAC Address", 300);
-            lstLocal.Sorting = SortOrder.Descending;
-            Ping_all();   //Automate pending
+            
+                button_AdminConsole.Enabled = false;
+                label_AvailableWifi.Show();
+                lstLocal.View = View.Details;
+                lstLocal.Clear();
+                lstLocal.GridLines = true;
+                lstLocal.FullRowSelect = true;
+                lstLocal.BackColor = System.Drawing.Color.Aquamarine;
+                lstLocal.Columns.Add("IP", 100);
+                lstLocal.Columns.Add("HostName", 200);
+                lstLocal.Columns.Add("MAC Address", 300);
+                lstLocal.Sorting = SortOrder.Descending;
+
+                
+                lstLocal.Show();
+                pictureBox_AvailableWifi.Hide();
+                pictureBox_SavedWifi.Hide();
+                listView_wifiPasswords.Hide();
+                button_Back.Show();
+                label_SavedWifi.Hide();
+                label_wifiState.Show();
+                button_wifiState.Show();
+
+                label_AvailableWifi.Hide();
+                listBox_AvailableWifi.Hide();
+                label_wifiAdmin.Show();
+           
+
+            new Thread(() =>
+            {
+                Ping_all();  //Automate pending
+            }).Start();
 
 
-            lstLocal.Show();
-            pictureBox_AvailableWifi.Hide();
-            pictureBox_SavedWifi.Hide();
-            listView_wifiPasswords.Hide();
-            button_Back.Show();
-            label_SavedWifi.Hide();
-            label_wifiState.Show();
-            button_wifiState.Show();
 
-            label_AvailableWifi.Hide();
-            listBox_AvailableWifi.Hide();
-            label_wifiAdmin.Show();
         }
 
 
@@ -536,6 +555,14 @@ namespace NxWifiScanner
         }
         public void setButtonState()
         {
+            GraphicsPath p = new GraphicsPath();
+            p.AddEllipse(1, 1, button_wifiState.Width - 4, button_wifiState.Height - 4);
+            button_wifiState.Region = new Region(p);
+
+            Color green = ColorTranslator.FromHtml("#328a3e");
+            button_WifiDetails.BackColor = green;
+            button_Back.BackColor = green;
+            button_AdminConsole.BackColor = green;
             bool result = IsInternetAvailable();
             if(result==true)
             {
