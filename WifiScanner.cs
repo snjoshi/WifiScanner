@@ -97,8 +97,9 @@ namespace NxWifiScanner
             }
             return "Open Network - NO PASSWORD";
         }
-        private  void get_Wifi_passwords()
+        private  bool get_Wifi_passwords()
         {
+            SetLoading(true);
             List<string> WifiPasswords = new List<string>();
             string WifiNetworks = GetWifiNetworks();
             using (StringReader reader = new StringReader(WifiNetworks))
@@ -126,6 +127,8 @@ namespace NxWifiScanner
                     }
                 }
             }
+            SetLoading(false);
+            return true;
 
 
         }
@@ -234,6 +237,8 @@ namespace NxWifiScanner
         {
             setButtonState();
 
+            pictureBox1.Visible = false;
+
             label_wifiState.Hide();
             button_wifiState.Hide();
             pictureBox_AvailableWifi.Show();
@@ -248,8 +253,8 @@ namespace NxWifiScanner
             lstLocal.Hide();
 
 
-            new Thread(() =>
-            {
+       //     new Thread(() =>
+       //     {
 
 
 
@@ -273,7 +278,7 @@ namespace NxWifiScanner
                         //Console.WriteLine(item.ToString());
                     }
                 }
-            }).Start();
+       //     }).Start();
 
 
             // Adding ListBox control
@@ -325,6 +330,7 @@ namespace NxWifiScanner
             new Thread(() =>
             {
                 get_Wifi_passwords();
+               
             }).Start();
 
             //listView_wifiPasswords.Items.Add(new ListViewItem(new string[] { "1", "content","4" }));
@@ -371,17 +377,19 @@ namespace NxWifiScanner
             return ip;
         }
 
-        public void Ping_all()
+        public bool Ping_all()
         {
 
+            SetLoading(true);
             string gate_ip = NetworkGateway();
+         //   MessageBox.Show(gate_ip);
 
             //Extracting and pinging all other ip's.
             string[] array = gate_ip.Split('.');
-
+           
             for (int i = 2; i <= 255; i++)
             {
-
+                
                 string ping_var = array[0] + "." + array[1] + "." + array[2] + "." + i;
 
                 //time in milliseconds           
@@ -389,14 +397,19 @@ namespace NxWifiScanner
 
             }
 
+            SetLoading(false);
+            return true;
+
         }
 
         public void Ping(string host, int attempts, int timeout)
         {
+            SetLoading(true);
             for (int i = 0; i < attempts; i++)
             {
                 new Thread(delegate ()
-                {
+               {
+                  //  SetLoading(true);
                     try
                     {
                         System.Net.NetworkInformation.Ping ping = new System.Net.NetworkInformation.Ping();
@@ -409,14 +422,18 @@ namespace NxWifiScanner
                         // Exceptions are thrown for normal ping failurs like address lookup
                         // failed.  For this reason we are supressing errors.
                     }
+                    
                 }).Start();
             }
+           // SetLoading(false);
         }
         private void PingCompleted(object sender, PingCompletedEventArgs e)
         {
+           
             string ip = (string)e.UserState;
             if (e.Reply != null && e.Reply.Status == IPStatus.Success)
             {
+                SetLoading(true);
                 string hostname = GetHostName(ip);
                 string macaddres = GetMacAddress(ip);
                 string[] arr = new string[3];
@@ -443,12 +460,13 @@ namespace NxWifiScanner
                     }));
                 }
 
-
+                SetLoading(false);
             }
             else
             {
                 // MessageBox.Show(e.Reply.Status.ToString());
             }
+            
         }
         public string GetHostName(string ipAddress)
         {
@@ -502,9 +520,10 @@ namespace NxWifiScanner
 
         }
 
-        private void button_AdminConsole_Click(object sender, EventArgs e)
+        private void load_Ip_Addresses()
         {
-            
+            try
+            {
                 button_AdminConsole.Enabled = false;
                 label_AvailableWifi.Show();
                 lstLocal.View = View.Details;
@@ -517,7 +536,7 @@ namespace NxWifiScanner
                 lstLocal.Columns.Add("MAC Address", 300);
                 lstLocal.Sorting = SortOrder.Descending;
 
-                
+
                 lstLocal.Show();
                 pictureBox_AvailableWifi.Hide();
                 pictureBox_SavedWifi.Hide();
@@ -526,17 +545,30 @@ namespace NxWifiScanner
                 label_SavedWifi.Hide();
                 label_wifiState.Show();
                 button_wifiState.Show();
+             //   pictureBox1.Show();
 
                 label_AvailableWifi.Hide();
                 listBox_AvailableWifi.Hide();
                 label_wifiAdmin.Show();
-           
 
-            new Thread(() =>
+
+                new Thread(() =>
+                {
+                    Ping_all(); //Automate pending
+
+                }).Start();
+               
+            }
+            catch (Exception ex)
             {
-                Ping_all();  //Automate pending
-            }).Start();
+                
+            }
+        }
+        private void button_AdminConsole_Click(object sender, EventArgs e)
+        {
 
+
+            load_Ip_Addresses();
 
 
         }
@@ -618,6 +650,70 @@ namespace NxWifiScanner
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void lstLocal_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+         //   string selectedItem = lstLocal.Items[lstLocal.SelectedIndexChanged].ToString();
+        }
+       
+        private void lstLocal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string gate_ip = NetworkGateway();
+            if (lstLocal.SelectedItems.Count > 0)
+            {
+                DialogResult dialogResult = MessageBox.Show("Do you want to block this IP:" + (lstLocal.SelectedItems[0]).Text + "?", "Firewall", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+
+                    ListViewItem item = lstLocal.SelectedItems[0];
+                 //   MessageBox.Show(item.SubItems[0].Text);
+
+                    //System.Diagnostics.Process process = new System.Diagnostics.Process();
+                    //System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                    //startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                    //startInfo.FileName = "cmd.exe";
+                    //startInfo.Arguments = "C:\\Netlux\\arpspoof.exe -t "+ item.SubItems[0].Text+" "+ gate_ip;
+                    //process.StartInfo = startInfo;
+                    //process.Start();
+
+                    //do something
+                    Thread.Sleep(1000);
+                    MessageBox.Show("IP:" + (lstLocal.SelectedItems[0]).Text + "  Successfuly Blocked", "Firewall", MessageBoxButtons.OK);
+
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    //do something else
+                }
+
+               
+            }
+            else
+            {
+              //  EmpIDtextBox.Text = string.Empty;
+              //  EmpNametextBox.Text = string.Empty;
+            }
+        }
+
+        private void SetLoading(bool displayLoader)
+        {
+            if (displayLoader)
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    pictureBox1.Visible = true;
+                    this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+                });
+            }
+            else
+            {
+                this.Invoke((MethodInvoker)delegate
+                {
+                    pictureBox1.Visible = false;
+                    this.Cursor = System.Windows.Forms.Cursors.Default;
+                });
+            }
         }
     }
 }

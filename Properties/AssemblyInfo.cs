@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NxWifiScanner")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TTB WifiScanner")]
+[assembly: AssemblyDescription("Wifi Scanner Tools allows you to scan all the available wifi and helps you detect the password strength of all saved wifi ssid and suggests you to make")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NxWifiScanner")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("TTB")]
+[assembly: AssemblyProduct("TTB Internet Security")]
+[assembly: AssemblyCopyright("TTB Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

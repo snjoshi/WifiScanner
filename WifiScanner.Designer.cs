@@ -31,44 +31,56 @@ namespace NxWifiScanner
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WifiScanner));
             this.panel_AvailableWifi = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_wifiAdmin = new System.Windows.Forms.Label();
             this.label_wifiState = new System.Windows.Forms.Label();
             this.button_wifiState = new System.Windows.Forms.Button();
             this.button_AdminConsole = new System.Windows.Forms.Button();
-            this.lstLocal = new System.Windows.Forms.ListView();
             this.pictureBox_AvailableWifi = new System.Windows.Forms.PictureBox();
             this.label_SavedWifi = new System.Windows.Forms.Label();
             this.label_AvailableWifi = new System.Windows.Forms.Label();
             this.button_Back = new System.Windows.Forms.Button();
             this.button_WifiDetails = new System.Windows.Forms.Button();
-            this.listBox_AvailableWifi = new System.Windows.Forms.ListBox();
-            this.listView_wifiPasswords = new System.Windows.Forms.ListView();
             this.pictureBox_SavedWifi = new System.Windows.Forms.PictureBox();
+            this.listView_wifiPasswords = new System.Windows.Forms.ListView();
+            this.lstLocal = new System.Windows.Forms.ListView();
+            this.listBox_AvailableWifi = new System.Windows.Forms.ListBox();
             this.label_WifiToolDesc = new System.Windows.Forms.Label();
             this.panel_AvailableWifi.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_AvailableWifi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_SavedWifi)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_AvailableWifi
             // 
+            this.panel_AvailableWifi.Controls.Add(this.pictureBox1);
             this.panel_AvailableWifi.Controls.Add(this.label_wifiAdmin);
             this.panel_AvailableWifi.Controls.Add(this.label_wifiState);
             this.panel_AvailableWifi.Controls.Add(this.button_wifiState);
             this.panel_AvailableWifi.Controls.Add(this.button_AdminConsole);
-            this.panel_AvailableWifi.Controls.Add(this.lstLocal);
             this.panel_AvailableWifi.Controls.Add(this.pictureBox_AvailableWifi);
             this.panel_AvailableWifi.Controls.Add(this.label_SavedWifi);
             this.panel_AvailableWifi.Controls.Add(this.label_AvailableWifi);
             this.panel_AvailableWifi.Controls.Add(this.button_Back);
             this.panel_AvailableWifi.Controls.Add(this.button_WifiDetails);
-            this.panel_AvailableWifi.Controls.Add(this.listBox_AvailableWifi);
-            this.panel_AvailableWifi.Controls.Add(this.listView_wifiPasswords);
             this.panel_AvailableWifi.Controls.Add(this.pictureBox_SavedWifi);
+            this.panel_AvailableWifi.Controls.Add(this.listView_wifiPasswords);
+            this.panel_AvailableWifi.Controls.Add(this.lstLocal);
+            this.panel_AvailableWifi.Controls.Add(this.listBox_AvailableWifi);
             this.panel_AvailableWifi.Location = new System.Drawing.Point(12, 25);
             this.panel_AvailableWifi.Name = "panel_AvailableWifi";
             this.panel_AvailableWifi.Size = new System.Drawing.Size(750, 398);
             this.panel_AvailableWifi.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::NxWifiScanner.Properties.Resources.loading4V0b;
+            this.pictureBox1.Location = new System.Drawing.Point(269, 81);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(187, 200);
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
             // 
             // label_wifiAdmin
             // 
@@ -117,15 +129,6 @@ namespace NxWifiScanner
             this.button_AdminConsole.Text = "Admin Console";
             this.button_AdminConsole.UseVisualStyleBackColor = false;
             this.button_AdminConsole.Click += new System.EventHandler(this.button_AdminConsole_Click);
-            // 
-            // lstLocal
-            // 
-            this.lstLocal.HideSelection = false;
-            this.lstLocal.Location = new System.Drawing.Point(99, 54);
-            this.lstLocal.Name = "lstLocal";
-            this.lstLocal.Size = new System.Drawing.Size(640, 253);
-            this.lstLocal.TabIndex = 8;
-            this.lstLocal.UseCompatibleStateImageBehavior = false;
             // 
             // pictureBox_AvailableWifi
             // 
@@ -184,16 +187,15 @@ namespace NxWifiScanner
             this.button_WifiDetails.UseVisualStyleBackColor = false;
             this.button_WifiDetails.Click += new System.EventHandler(this.button_WifiDetails_Click);
             // 
-            // listBox_AvailableWifi
+            // pictureBox_SavedWifi
             // 
-            this.listBox_AvailableWifi.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox_AvailableWifi.FormattingEnabled = true;
-            this.listBox_AvailableWifi.ItemHeight = 18;
-            this.listBox_AvailableWifi.Location = new System.Drawing.Point(23, 55);
-            this.listBox_AvailableWifi.Name = "listBox_AvailableWifi";
-            this.listBox_AvailableWifi.Size = new System.Drawing.Size(716, 256);
-            this.listBox_AvailableWifi.TabIndex = 0;
-            this.listBox_AvailableWifi.SelectedIndexChanged += new System.EventHandler(this.listBox_AvailableWifi_SelectedIndexChanged);
+            this.pictureBox_SavedWifi.Image = global::NxWifiScanner.Properties.Resources._lock;
+            this.pictureBox_SavedWifi.Location = new System.Drawing.Point(294, 0);
+            this.pictureBox_SavedWifi.Name = "pictureBox_SavedWifi";
+            this.pictureBox_SavedWifi.Size = new System.Drawing.Size(62, 49);
+            this.pictureBox_SavedWifi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox_SavedWifi.TabIndex = 7;
+            this.pictureBox_SavedWifi.TabStop = false;
             // 
             // listView_wifiPasswords
             // 
@@ -206,15 +208,27 @@ namespace NxWifiScanner
             this.listView_wifiPasswords.UseCompatibleStateImageBehavior = false;
             this.listView_wifiPasswords.SelectedIndexChanged += new System.EventHandler(this.listView_wifiPasswords_SelectedIndexChanged);
             // 
-            // pictureBox_SavedWifi
+            // lstLocal
             // 
-            this.pictureBox_SavedWifi.Image = global::NxWifiScanner.Properties.Resources._lock;
-            this.pictureBox_SavedWifi.Location = new System.Drawing.Point(294, 0);
-            this.pictureBox_SavedWifi.Name = "pictureBox_SavedWifi";
-            this.pictureBox_SavedWifi.Size = new System.Drawing.Size(62, 49);
-            this.pictureBox_SavedWifi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox_SavedWifi.TabIndex = 7;
-            this.pictureBox_SavedWifi.TabStop = false;
+            this.lstLocal.HideSelection = false;
+            this.lstLocal.Location = new System.Drawing.Point(99, 54);
+            this.lstLocal.Name = "lstLocal";
+            this.lstLocal.Size = new System.Drawing.Size(640, 253);
+            this.lstLocal.TabIndex = 8;
+            this.lstLocal.UseCompatibleStateImageBehavior = false;
+            this.lstLocal.SelectedIndexChanged += new System.EventHandler(this.lstLocal_SelectedIndexChanged);
+            this.lstLocal.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstLocal_MouseDoubleClick);
+            // 
+            // listBox_AvailableWifi
+            // 
+            this.listBox_AvailableWifi.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_AvailableWifi.FormattingEnabled = true;
+            this.listBox_AvailableWifi.ItemHeight = 18;
+            this.listBox_AvailableWifi.Location = new System.Drawing.Point(23, 55);
+            this.listBox_AvailableWifi.Name = "listBox_AvailableWifi";
+            this.listBox_AvailableWifi.Size = new System.Drawing.Size(716, 256);
+            this.listBox_AvailableWifi.TabIndex = 0;
+            this.listBox_AvailableWifi.SelectedIndexChanged += new System.EventHandler(this.listBox_AvailableWifi_SelectedIndexChanged);
             // 
             // label_WifiToolDesc
             // 
@@ -245,6 +259,7 @@ namespace NxWifiScanner
             this.Load += new System.EventHandler(this.WifiScanner_Load);
             this.panel_AvailableWifi.ResumeLayout(false);
             this.panel_AvailableWifi.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_AvailableWifi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_SavedWifi)).EndInit();
             this.ResumeLayout(false);
@@ -269,6 +284,7 @@ namespace NxWifiScanner
         private System.Windows.Forms.Button button_wifiState;
         private System.Windows.Forms.Label label_wifiState;
         private System.Windows.Forms.Label label_wifiAdmin;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TTBTSTray.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ManagedWifi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\managedwifi.1.1.0\lib\net20\ManagedWifi.dll</HintPath>
@@ -90,6 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\925808-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\loading4V0b.gif" />
+    <None Include="Resources\loading4V0b1.gif" />
+    <Content Include="TTBTSTray.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -29,10 +30,17 @@ namespace NxWifiScanner
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                if (CheckForInternetConnection())
-                    Application.Run(new WifiScanner());
+                if (IsWindows10())
+                {
+                    if (CheckForInternetConnection())
+                        Application.Run(new WifiScanner());
+                    else
+                        MessageBox.Show("Your Wifi is turned off");
+                }
                 else
-                    MessageBox.Show("Your Wifi is turned off");
+                {
+                    MessageBox.Show("Utility does not supports this OS version");
+                }
             }
            
         }
@@ -50,6 +58,14 @@ namespace NxWifiScanner
             {
                 return false;
             }
+        }
+        static bool IsWindows10()
+        {
+            var reg = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion");
+
+            string productName = (string)reg.GetValue("ProductName");
+
+            return productName.StartsWith("Windows 10");
         }
     }
 }
