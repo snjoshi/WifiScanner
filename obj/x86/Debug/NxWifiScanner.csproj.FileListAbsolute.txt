@@ -1,0 +1,11 @@
+C:\Users\joshi\source\repos\NxWifiScanner\bin\x86\Debug\NxWifiScanner.exe
+C:\Users\joshi\source\repos\NxWifiScanner\bin\x86\Debug\NxWifiScanner.pdb
+C:\Users\joshi\source\repos\NxWifiScanner\bin\x86\Debug\ManagedWifi.dll
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.csprojAssemblyReference.cache
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.WifiScanner.resources
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.Properties.Resources.resources
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.csproj.GenerateResource.cache
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.csproj.CoreCompileInputs.cache
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.csproj.CopyComplete
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.exe
+C:\Users\joshi\source\repos\NxWifiScanner\obj\x86\Debug\NxWifiScanner.pdb

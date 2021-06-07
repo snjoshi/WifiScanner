@@ -30,17 +30,17 @@ namespace NxWifiScanner
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                if (IsWindows10())
-                {
+                //if (IsWindows10())
+                //{
                     if (CheckForInternetConnection())
                         Application.Run(new WifiScanner());
                     else
                         MessageBox.Show("Your Wifi is turned off");
-                }
-                else
-                {
-                    MessageBox.Show("Utility does not supports this OS version");
-                }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Utility does not supports this OS version");
+                //}
             }
            
         }
