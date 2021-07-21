@@ -133,4 +133,16 @@
   <data name="ManagedWifi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\lib\ManagedWifi.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="backgroundimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modern-green-wave-background_1035-9107.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arpspoof" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\scanner\any\arpspoof.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ManagedWifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Release\scanner\any\ManagedWifi.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WinPcap_4_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WinPcap_4_1_3.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

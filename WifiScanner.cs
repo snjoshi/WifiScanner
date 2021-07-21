@@ -18,6 +18,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
 
+
 //using ManagedWifi;
 
 namespace NxWifiScanner
@@ -54,9 +55,7 @@ namespace NxWifiScanner
                     {
                         sw.WriteLine("New file created: {0}", DateTime.Now.ToString());
                         sw.WriteLine(input);
-                        //sw.WriteLine("Add one more line ");
-                        //sw.WriteLine("Add one more line ");
-                        //sw.WriteLine("Done!");
+                       
                     }
 
                    // fi.Close();
@@ -67,9 +66,7 @@ namespace NxWifiScanner
                     {
                         sw.WriteLine("File appended on: {0}", DateTime.Now.ToString());
                         sw.WriteLine(input);
-                        //sw.WriteLine("Add one more line ");
-                        //sw.WriteLine("Add one more line ");
-                        //sw.WriteLine("Done!");
+                        
                     }
                 }
             }
@@ -189,8 +186,7 @@ namespace NxWifiScanner
                             }
 
 
-                            //  listView1.Items.Add(Wifi_name).SubItems.Add(Wifi_password);
-                            // listView_wifiPasswords.Items.Add(new ListViewItem(new string[] { "1", "content", "4" }));
+                            
                             string Pwd_Strength = CheckingPasswordStrength(Wifi_password).ToString();
                             listView_wifiPasswords.Items.Add(new ListViewItem(new string[] { Wifi_name, Wifi_password, Pwd_Strength }));
                             //  DisplayWifiPasswords(Wifi_name, Wifi_password, Pwd_Strength);
@@ -239,12 +235,15 @@ namespace NxWifiScanner
                         Wlan.Dot11Ssid ssid = network.dot11Ssid;
 
                         string networkname = Encoding.ASCII.GetString(ssid.SSID, 0, (int)ssid.SSIDLength);
+                        string strength = network.wlanSignalQuality.ToString();
+                        //string SSID_label = "SSID = ";
+                        
 
                         if (networkname != "")
 
                         {
 
-                            networkList.Add(networkname.ToString());
+                            networkList.Add(networkname.ToString() + "     Strength= "+  strength + "/100" );
 
                         }
 
@@ -335,7 +334,7 @@ namespace NxWifiScanner
             
         }
 
-        public static bool IsSoftwareInstalled(string softwareName)
+        public static bool IsSoftwareInstalled1(string softwareName)
         {
             var registryUninstallPath = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall";
             var registryUninstallPathFor32BitOn64Bit = @"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall";
@@ -381,7 +380,7 @@ namespace NxWifiScanner
 
         private void Download_Click()
         {
-            ProcessStartInfo sInfo = new ProcessStartInfo("https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe");
+            ProcessStartInfo sInfo = new ProcessStartInfo("WinPcap_4_1_3.exe");
             Process.Start(sInfo);
             //using (WebClient wc = new WebClient())
             //{
@@ -393,8 +392,10 @@ namespace NxWifiScanner
        
         private void WifiScanner_Load(object sender, EventArgs e)
         {
-            //try
-            //{
+            try
+            {
+              
+
 
                 CreateDebugFile("#Success : File created / appended");
                 setButtonState();
@@ -404,6 +405,7 @@ namespace NxWifiScanner
                 pictureBox_AvailableWifi.Show();
                 label_AvailableWifi.Show();
                 listBox_AvailableWifi.Show();
+                button_blockIP.Hide();
 
 
                 
@@ -479,18 +481,18 @@ namespace NxWifiScanner
                 listBox_AvailableWifi.Items.Add("Check your WiFi connection. No WiFi Available!");
                 CreateDebugFile("#Error  : No Wifi Available (list empty)");
                 }
-         //   }).Start();
-            //}catch(NullReferenceException)
-            //{
-            //    CreateDebugFile("#Error  : Null reference exception");
-            //    return;
-            //}
+            //   }).Start();
+        }catch(NullReferenceException)
+            {
+                CreateDebugFile("#Error  : Null reference exception");
+                return;
+            }
 
 
-            // Adding ListBox control
-            // to the form
-            //  this.Controls.Add(listBox_AvailableWifi);
-        }
+    // Adding ListBox control
+    // to the form
+    //  this.Controls.Add(listBox_AvailableWifi);
+}
 
         private void listBox_AvailableWifi_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -504,6 +506,7 @@ namespace NxWifiScanner
             label_AvailableWifi.Hide();
             lstLocal.Hide();
             listBox_AvailableWifi.Hide();
+            button_blockIP.Hide();
             button_AdminConsole.Enabled = true;
 
             InitializeListView();
@@ -568,6 +571,7 @@ namespace NxWifiScanner
             button_wifiState.Hide();
             label_AvailableWifi.Show();
             label_wifiAdmin.Hide();
+            button_blockIP.Hide();
 
             button_AdminConsole.Enabled = true;
         }
@@ -776,10 +780,10 @@ namespace NxWifiScanner
                 lstLocal.GridLines = true;
                 lstLocal.FullRowSelect = true;
                 lstLocal.BackColor = System.Drawing.Color.Aquamarine;
-                lstLocal.Columns.Add("IP", 100);
-                lstLocal.Columns.Add("HostName", 200);
-                lstLocal.Columns.Add("MAC Address", 200);
-                lstLocal.Columns.Add("Status", 200);
+                lstLocal.Columns.Add("IP", 120);
+                lstLocal.Columns.Add("HostName", 250);
+                lstLocal.Columns.Add("MAC Address", 150);
+                lstLocal.Columns.Add("Status", 150);
                 lstLocal.Sorting = SortOrder.Descending;
 
 
@@ -796,6 +800,7 @@ namespace NxWifiScanner
                 label_AvailableWifi.Hide();
                 listBox_AvailableWifi.Hide();
                 label_wifiAdmin.Show();
+                button_blockIP.Show();
 
 
                 new Thread(() =>
@@ -818,7 +823,7 @@ namespace NxWifiScanner
         }
         private void button_AdminConsole_Click(object sender, EventArgs e)
         {
-            if (IsSoftwareInstalled("WinPcap"))
+            if (IsSoftwareInstalled1("WinPcap"))
             {
              //   MessageBox.Show("installed");
                 if (load_Ip_Addresses())
@@ -879,6 +884,7 @@ namespace NxWifiScanner
             button_WifiDetails.BackColor = green;
             button_Back.BackColor = green;
             button_AdminConsole.BackColor = green;
+            button_blockIP.BackColor = green;
             bool result = IsInternetAvailable();
             if(result==true)
             {
@@ -1126,13 +1132,13 @@ namespace NxWifiScanner
         {
             if (lstLocal.SelectedItems.Count <= 0)
             {
-                MessageBox.Show("no ip selected");
+                MessageBox.Show("Please Select an IP address first!", "Instruction", MessageBoxButtons.OK);
             }
             else
             {
                 foreach (ListViewItem ip in lstLocal.SelectedItems)
                 {
-                    MessageBox.Show((lstLocal.SelectedItems[0]).Text);
+                  //  MessageBox.Show((lstLocal.SelectedItems[0]).Text);
                     if (BlockIP((lstLocal.SelectedItems[0]).Text))
                     {
 
@@ -1149,15 +1155,10 @@ namespace NxWifiScanner
                        // CreateDebugFile("#Error  : Exception while starting IP blocking" + ex.Message);
                     }
                 }
-                //foreach (ListViewItem item in lstLocal.Items)
-                //{
-                //    if (item.SubItems[id].Text == (lstLocal.SelectedItems[0]).Text)
-                //    {
-                //        item.SubItems[status].Text = "Blocked";
-                //        break;
-                //    }
-                //}
+             
             }
         }
+
+      
     }
 }

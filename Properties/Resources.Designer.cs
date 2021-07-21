@@ -71,12 +71,42 @@ namespace NxWifiScanner.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] arpspoof {
+            get {
+                object obj = ResourceManager.GetObject("arpspoof", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backgroundimg {
+            get {
+                object obj = ResourceManager.GetObject("backgroundimg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap loading4V0b {
             get {
                 object obj = ResourceManager.GetObject("loading4V0b", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ManagedWifi {
+            get {
+                object obj = ResourceManager.GetObject("ManagedWifi", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -107,6 +137,16 @@ namespace NxWifiScanner.Properties {
             get {
                 object obj = ResourceManager.GetObject("wifi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] WinPcap_4_1_3 {
+            get {
+                object obj = ResourceManager.GetObject("WinPcap_4_1_3", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

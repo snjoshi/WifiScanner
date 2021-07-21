@@ -1,0 +1,1014 @@
+New file created: 7/15/2021 9:54:17 AM
+#Success : File created / appended
+File appended on: 7/15/2021 9:54:21 AM
+#Success  :Internet connection checked successfully
+File appended on: 7/15/2021 9:54:22 AM
+#Success : successfully got available wifi 
+File appended on: 7/15/2021 9:54:22 AM
+#Success  : Wifi Available
+File appended on: 7/15/2021 9:54:28 AM
+#Success  : Ip addresses loaded successfully
+File appended on: 7/15/2021 9:54:28 AM
+#Success  : gate ip received successfully
+File appended on: 7/15/2021 9:54:28 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:28 AM
+#Success  : Pinging all Ip successful
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:31 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:32 AM
+#DEBUG  :inside ping completed
+File appended on: 7/15/2021 9:54:32 AM
+#DEBUG  :inside ping completed ELSE
+File appended on: 7/15/2021 9:54:32 AM
+#DEBUG  :inside ping completed ELSE

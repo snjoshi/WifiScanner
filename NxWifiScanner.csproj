@@ -70,10 +70,14 @@
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ManagedWifi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\managedwifi.1.1.0\lib\net20\ManagedWifi.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\ManagedWifi.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -87,6 +91,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmbeddedAssembly.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -108,6 +113,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -134,9 +141,13 @@
   <ItemGroup>
     <None Include="bin\Release\ManagedWifi.dll" />
     <EmbeddedResource Include="lib\ManagedWifi.dll" />
+    <None Include="bin\Release\scanner\any\arpspoof.exe" />
+    <None Include="bin\Release\scanner\any\ManagedWifi.dll" />
     <Content Include="ManagedWifi.dll" />
     <Content Include="Resources\loading4V0b.gif" />
     <None Include="Resources\loading4V0b1.gif" />
+    <None Include="Resources\modern-green-wave-background_1035-9107.jpg" />
+    <None Include="Resources\WinPcap_4_1_3.exe" />
     <Content Include="TTBTSTray.ico" />
   </ItemGroup>
   <ItemGroup />
