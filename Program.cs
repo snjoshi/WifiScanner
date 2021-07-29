@@ -15,29 +15,52 @@ namespace NxWifiScanner
     {
         /// <summary>
         /// The main entry point for the application.
+        
         /// </summary>
-        [STAThread]
+         public static void ReceiveSignalFromClient()
+        {
+            //textBox1.Text = "Successful";
+            while (true)
+            {
+                EventWaitHandle waitHandle = new EventWaitHandle(false, EventResetMode.ManualReset, "NXISUPDTMODE");
+                waitHandle.WaitOne();
+                System.Environment.Exit(0);
+            }
+
+}
+[STAThread]
+
         static void Main()
         {
             try
             {
-                //String fileName;
-                //if (Environment.Is64BitOperatingSystem)
-                //{
-                //    string dir = Path.GetPathRoot(Environment.SystemDirectory);
-                //    fileName = dir + "Program Files (x86)\\Netlux\\NetluxInternetSecurity\\tools\\WindowsInput.dll";
-                //    LoadLibrary(fileName);
-                //}
-                //else
-                //{
-                //    string dir = Path.GetPathRoot(Environment.SystemDirectory);
-                //    fileName = dir + "Program Files\\Netlux\\NetluxInternetSecurity\\tools\\WindowsInput.dll";
-                //    LoadLibrary(fileName);
-                //}
+                Thread thr = new Thread(ReceiveSignalFromClient);
+                thr.Start();
+                
+                String dllFile,arpspoofPath,WinPcapPath;
+                if (Environment.Is64BitOperatingSystem)
+                {
+                    string rootDir = Path.GetPathRoot(Environment.SystemDirectory);
+                    dllFile = rootDir + "Program Files (x86)\\TTB\\TTBInternetSecurity\\Tools\\WindowsInput.dll";
+                    arpspoofPath = rootDir + "Program Files (x86)\\TTB\\TTBInternetSecurity\\Tools\\arpspoof.exe";
+                    WinPcapPath = rootDir + "Program Files (x86)\\TTB\\TTBInternetSecurity\\Tools\\WinPcap_4_1_3.exe";
+
+                }
+                else
+                {
+                    string rootDir = Path.GetPathRoot(Environment.SystemDirectory);
+                    dllFile = rootDir + "Program Files\\TTB\\TTBInternetSecurity\\Tools\\ManagedWifi.dll";
+                    arpspoofPath = rootDir + "Program Files\\TTB\\TTBInternetSecurity\\Tools\\arpspoof.exe";
+                    WinPcapPath = rootDir + "Program Files\\TTB\\TTBInternetSecurity\\Tools\\WinPcap_4_1_3.exe";
+
+                }
                 //  System.Reflection.Assembly.LoadFrom(fileName);
-                File.WriteAllBytes(@"arpspoof.exe", Resources.arpspoof);
-                File.WriteAllBytes(@"ManagedWifi.dll", Resources.ManagedWifi);
-                File.WriteAllBytes(@"WinPcap_4_1_3.exe", Resources.WinPcap_4_1_3);
+
+              
+
+                File.WriteAllBytes(arpspoofPath, Resources.arpspoof);
+                File.WriteAllBytes(dllFile, Resources.ManagedWifi);
+                File.WriteAllBytes(WinPcapPath, Resources.WinPcap_4_1_3);
 
 
                 string resource1 = "NxWifiScanner.lib.ManagedWifi.dll";
