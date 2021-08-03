@@ -7,3 +7,4 @@
 #Dependencies
 .NET 4.0
 ManagedWifi API.
+Visual Studio 2019
