@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("TTB WifiScanner")]
 [assembly: AssemblyDescription("Wifi Scanner Tools allows you to scan all the available wifi and helps you detect the password strength of all saved wifi ssid and suggests you to make")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TTB")]
-[assembly: AssemblyProduct("TTB Internet Security")]
-[assembly: AssemblyCopyright("TTB Copyright ©  2021")]
+[assembly: AssemblyCompany("Techboy Solution")]
+[assembly: AssemblyProduct("TTB Total Security")]
+[assembly: AssemblyCopyright("TTB 2021, All rights reserved")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

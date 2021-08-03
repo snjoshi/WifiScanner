@@ -77,8 +77,8 @@ namespace NxWifiScanner
                 appMutex = new Mutex(true, "NxWifiMutex", out createdNew);
                 if (!createdNew)
                 {
-                  //  MessageBox.Show("Mutex Present");
-                    Application.Exit();
+                    //  MessageBox.Show("Mutex Present");
+                    System.Environment.Exit(0);
                 }
                 else
                 {
@@ -89,7 +89,7 @@ namespace NxWifiScanner
                     if (CheckForInternetConnection())
                         Application.Run(new WifiScanner());
                     else
-                        MessageBox.Show("Your Wifi is turned off");
+                        MessageBox.Show("Your Internet Connection is turned off");
                     //}
                     //else
                     //{

@@ -7,4 +7,3 @@ C:\Users\joshi\source\repos\NxWifiScanner\obj\Release\NxWifiScanner.csproj.CoreC
 C:\Users\joshi\source\repos\NxWifiScanner\obj\Release\NxWifiScanner.exe
 C:\Users\joshi\source\repos\NxWifiScanner\obj\Release\NxWifiScanner.pdb
 C:\Users\joshi\source\repos\NxWifiScanner\bin\Release\NxWifiScanner.exe.config
-C:\Users\joshi\source\repos\NxWifiScanner\obj\Release\NxWifiScanner.csprojAssemblyReference.cache

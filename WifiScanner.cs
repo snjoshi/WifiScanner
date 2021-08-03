@@ -159,7 +159,10 @@ namespace NxWifiScanner
                 if (WifiNetworks != null)
                     CreateDebugFile("#Sucess  : Wifi Network List not empty");
                 else
+                {
+                    listView_wifiPasswords.Items.Add("No Wifi / No Saved Passwords Found");
                     CreateDebugFile("#Error  : Wifi Network List empty");
+                }
 
                 using (StringReader reader = new StringReader(WifiNetworks))
                 {
@@ -333,7 +336,58 @@ namespace NxWifiScanner
         {
             
         }
+        public static bool IsApplictionInstalled(string p_name)
+        {
+            string keyName;
 
+            // search in: CurrentUser
+            keyName = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall";
+            if (ExistsInSubKey(Registry.CurrentUser, keyName, "WinPcapInst", p_name) == true)
+            {
+                return true;
+            }
+
+            // search in: LocalMachine_32
+            keyName = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall";
+            if (ExistsInSubKey(Registry.LocalMachine, keyName, "WinPcapInst", p_name) == true)
+            {
+                return true;
+            }
+
+            // search in: LocalMachine_64
+            keyName = @"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall";
+            if (ExistsInSubKey(Registry.LocalMachine, keyName, "DisplayName", p_name) == true)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private static bool ExistsInSubKey(RegistryKey p_root, string p_subKeyName, string p_attributeName, string p_name)
+        {
+            RegistryKey subkey;
+            string displayName;
+
+            using (RegistryKey key = p_root.OpenSubKey(p_subKeyName))
+            {
+                if (key != null)
+                {
+                    foreach (string kn in key.GetSubKeyNames())
+                    {
+                      //  using (subkey = key.OpenSubKey(kn))
+                      //  {
+                       //     displayName = subkey.GetValue(p_attributeName) as string;
+                            if (kn.Contains(p_name) == true)
+                            {
+                                return true;
+                            }
+                      //  }
+                    }
+                }
+            }
+            return false;
+        }
         public static bool IsSoftwareInstalled1(string softwareName)
         {
             var registryUninstallPath = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall";
@@ -484,6 +538,8 @@ namespace NxWifiScanner
             //   }).Start();
         }catch(NullReferenceException)
             {
+                listBox_AvailableWifi.ForeColor = Color.Red;
+                listBox_AvailableWifi.Items.Add("Check your WiFi connection. No WiFi Available!");
                 CreateDebugFile("#Error  : Null reference exception");
                 return;
             }
@@ -823,7 +879,8 @@ namespace NxWifiScanner
         }
         private void button_AdminConsole_Click(object sender, EventArgs e)
         {
-            if (IsSoftwareInstalled1("WinPcap"))
+            //  if (IsSoftwareInstalled1("WinPcap"))
+            if (IsApplictionInstalled("WinPcap"))
             {
              //   MessageBox.Show("installed");
                 if (load_Ip_Addresses())
@@ -1158,7 +1215,18 @@ namespace NxWifiScanner
              
             }
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
 
-      
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+
+            // Confirm user wants to close
+           
+             Environment.Exit(0);
+                  
+        }
+
+
     }
 }

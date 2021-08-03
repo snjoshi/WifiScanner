@@ -1012,3 +1012,43 @@ File appended on: 7/15/2021 9:54:32 AM
 #DEBUG  :inside ping completed ELSE
 File appended on: 7/15/2021 9:54:32 AM
 #DEBUG  :inside ping completed ELSE
+File appended on: 7/31/2021 8:45:21 PM
+#Success : File created / appended
+File appended on: 7/31/2021 8:45:22 PM
+#Success  :Internet connection checked successfully
+File appended on: 7/31/2021 8:45:24 PM
+#Success : successfully got available wifi 
+File appended on: 7/31/2021 8:45:24 PM
+#Success  : Wifi Available
+File appended on: 7/31/2021 10:32:30 PM
+#Success : File created / appended
+File appended on: 7/31/2021 10:32:34 PM
+#Success  :Internet connection checked successfully
+File appended on: 7/31/2021 10:32:36 PM
+#Success : successfully got available wifi 
+File appended on: 7/31/2021 10:32:36 PM
+#Success  : Wifi Available
+File appended on: 7/31/2021 10:32:55 PM
+#Sucess  : Wifi Network List not empty
+File appended on: 7/31/2021 10:32:57 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:32:58 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:32:58 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:32:59 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:32:59 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:00 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:01 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:01 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:01 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:01 PM
+#Success  : Wifi Password derived successfully
+File appended on: 7/31/2021 10:33:01 PM
+#Success  : Get wifi password successful
